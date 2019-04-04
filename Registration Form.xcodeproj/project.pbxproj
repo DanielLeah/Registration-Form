@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		993863D82255FA7200A41C9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993863D72255FA7200A41C9A /* AppDelegate.swift */; };
+		993863DA2255FA7200A41C9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993863D92255FA7200A41C9A /* ViewController.swift */; };
+		993863DD2255FA7200A41C9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 993863DB2255FA7200A41C9A /* Main.storyboard */; };
+		993863E02255FA7200A41C9A /* Registration_Form.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 993863DE2255FA7200A41C9A /* Registration_Form.xcdatamodeld */; };
+		993863E22255FA7300A41C9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 993863E12255FA7300A41C9A /* Assets.xcassets */; };
+		993863E52255FA7300A41C9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 993863E32255FA7300A41C9A /* LaunchScreen.storyboard */; };
+		993863F02255FA7300A41C9A /* Registration_FormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993863EF2255FA7300A41C9A /* Registration_FormTests.swift */; };
+		993863FB2255FA7300A41C9A /* Registration_FormUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993863FA2255FA7300A41C9A /* Registration_FormUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		993863EC2255FA7300A41C9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 993863CC2255FA7200A41C9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 993863D32255FA7200A41C9A;
+			remoteInfo = "Registration Form";
+		};
+		993863F72255FA7300A41C9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 993863CC2255FA7200A41C9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 993863D32255FA7200A41C9A;
+			remoteInfo = "Registration Form";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		993863D42255FA7200A41C9A /* Registration Form.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Registration Form.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		993863D72255FA7200A41C9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		993863D92255FA7200A41C9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		993863DC2255FA7200A41C9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		993863DF2255FA7200A41C9A /* Registration_Form.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Registration_Form.xcdatamodel; sourceTree = "<group>"; };
+		993863E12255FA7300A41C9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		993863E42255FA7300A41C9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		993863E62255FA7300A41C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		993863EB2255FA7300A41C9A /* Registration FormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Registration FormTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		993863EF2255FA7300A41C9A /* Registration_FormTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration_FormTests.swift; sourceTree = "<group>"; };
+		993863F12255FA7300A41C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		993863F62255FA7300A41C9A /* Registration FormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Registration FormUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		993863FA2255FA7300A41C9A /* Registration_FormUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration_FormUITests.swift; sourceTree = "<group>"; };
+		993863FC2255FA7300A41C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		993863D12255FA7200A41C9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		993863E82255FA7300A41C9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		993863F32255FA7300A41C9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		993863CB2255FA7200A41C9A = {
+			isa = PBXGroup;
+			children = (
+				993863D62255FA7200A41C9A /* Registration Form */,
+				993863EE2255FA7300A41C9A /* Registration FormTests */,
+				993863F92255FA7300A41C9A /* Registration FormUITests */,
+				993863D52255FA7200A41C9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		993863D52255FA7200A41C9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				993863D42255FA7200A41C9A /* Registration Form.app */,
+				993863EB2255FA7300A41C9A /* Registration FormTests.xctest */,
+				993863F62255FA7300A41C9A /* Registration FormUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		993863D62255FA7200A41C9A /* Registration Form */ = {
+			isa = PBXGroup;
+			children = (
+				993863D72255FA7200A41C9A /* AppDelegate.swift */,
+				993863D92255FA7200A41C9A /* ViewController.swift */,
+				993863DB2255FA7200A41C9A /* Main.storyboard */,
+				993863E12255FA7300A41C9A /* Assets.xcassets */,
+				993863E32255FA7300A41C9A /* LaunchScreen.storyboard */,
+				993863E62255FA7300A41C9A /* Info.plist */,
+				993863DE2255FA7200A41C9A /* Registration_Form.xcdatamodeld */,
+			);
+			path = "Registration Form";
+			sourceTree = "<group>";
+		};
+		993863EE2255FA7300A41C9A /* Registration FormTests */ = {
+			isa = PBXGroup;
+			children = (
+				993863EF2255FA7300A41C9A /* Registration_FormTests.swift */,
+				993863F12255FA7300A41C9A /* Info.plist */,
+			);
+			path = "Registration FormTests";
+			sourceTree = "<group>";
+		};
+		993863F92255FA7300A41C9A /* Registration FormUITests */ = {
+			isa = PBXGroup;
+			children = (
+				993863FA2255FA7300A41C9A /* Registration_FormUITests.swift */,
+				993863FC2255FA7300A41C9A /* Info.plist */,
+			);
+			path = "Registration FormUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		993863D32255FA7200A41C9A /* Registration Form */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 993863FF2255FA7300A41C9A /* Build configuration list for PBXNativeTarget "Registration Form" */;
+			buildPhases = (
+				993863D02255FA7200A41C9A /* Sources */,
+				993863D12255FA7200A41C9A /* Frameworks */,
+				993863D22255FA7200A41C9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Registration Form";
+			productName = "Registration Form";
+			productReference = 993863D42255FA7200A41C9A /* Registration Form.app */;
+			productType = "com.apple.product-type.application";
+		};
+		993863EA2255FA7300A41C9A /* Registration FormTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 993864022255FA7300A41C9A /* Build configuration list for PBXNativeTarget "Registration FormTests" */;
+			buildPhases = (
+				993863E72255FA7300A41C9A /* Sources */,
+				993863E82255FA7300A41C9A /* Frameworks */,
+				993863E92255FA7300A41C9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				993863ED2255FA7300A41C9A /* PBXTargetDependency */,
+			);
+			name = "Registration FormTests";
+			productName = "Registration FormTests";
+			productReference = 993863EB2255FA7300A41C9A /* Registration FormTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		993863F52255FA7300A41C9A /* Registration FormUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 993864052255FA7300A41C9A /* Build configuration list for PBXNativeTarget "Registration FormUITests" */;
+			buildPhases = (
+				993863F22255FA7300A41C9A /* Sources */,
+				993863F32255FA7300A41C9A /* Frameworks */,
+				993863F42255FA7300A41C9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				993863F82255FA7300A41C9A /* PBXTargetDependency */,
+			);
+			name = "Registration FormUITests";
+			productName = "Registration FormUITests";
+			productReference = 993863F62255FA7300A41C9A /* Registration FormUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		993863CC2255FA7200A41C9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "David Daniel Leah (BFS EUROPE)";
+				TargetAttributes = {
+					993863D32255FA7200A41C9A = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					993863EA2255FA7300A41C9A = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 993863D32255FA7200A41C9A;
+					};
+					993863F52255FA7300A41C9A = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 993863D32255FA7200A41C9A;
+					};
+				};
+			};
+			buildConfigurationList = 993863CF2255FA7200A41C9A /* Build configuration list for PBXProject "Registration Form" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 993863CB2255FA7200A41C9A;
+			productRefGroup = 993863D52255FA7200A41C9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				993863D32255FA7200A41C9A /* Registration Form */,
+				993863EA2255FA7300A41C9A /* Registration FormTests */,
+				993863F52255FA7300A41C9A /* Registration FormUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		993863D22255FA7200A41C9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				993863E52255FA7300A41C9A /* LaunchScreen.storyboard in Resources */,
+				993863E22255FA7300A41C9A /* Assets.xcassets in Resources */,
+				993863DD2255FA7200A41C9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		993863E92255FA7300A41C9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		993863F42255FA7300A41C9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		993863D02255FA7200A41C9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				993863DA2255FA7200A41C9A /* ViewController.swift in Sources */,
+				993863D82255FA7200A41C9A /* AppDelegate.swift in Sources */,
+				993863E02255FA7200A41C9A /* Registration_Form.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		993863E72255FA7300A41C9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				993863F02255FA7300A41C9A /* Registration_FormTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		993863F22255FA7300A41C9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				993863FB2255FA7300A41C9A /* Registration_FormUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		993863ED2255FA7300A41C9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 993863D32255FA7200A41C9A /* Registration Form */;
+			targetProxy = 993863EC2255FA7300A41C9A /* PBXContainerItemProxy */;
+		};
+		993863F82255FA7300A41C9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 993863D32255FA7200A41C9A /* Registration Form */;
+			targetProxy = 993863F72255FA7300A41C9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		993863DB2255FA7200A41C9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				993863DC2255FA7200A41C9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		993863E32255FA7300A41C9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				993863E42255FA7300A41C9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		993863FD2255FA7300A41C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		993863FE2255FA7300A41C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		993864002255FA7300A41C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DH5S35BHEZ;
+				INFOPLIST_FILE = "Registration Form/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wipro.Registration-Form";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		993864012255FA7300A41C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DH5S35BHEZ;
+				INFOPLIST_FILE = "Registration Form/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wipro.Registration-Form";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		993864032255FA7300A41C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DH5S35BHEZ;
+				INFOPLIST_FILE = "Registration FormTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wipro.Registration-FormTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Registration Form.app/Registration Form";
+			};
+			name = Debug;
+		};
+		993864042255FA7300A41C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DH5S35BHEZ;
+				INFOPLIST_FILE = "Registration FormTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wipro.Registration-FormTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Registration Form.app/Registration Form";
+			};
+			name = Release;
+		};
+		993864062255FA7300A41C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DH5S35BHEZ;
+				INFOPLIST_FILE = "Registration FormUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wipro.Registration-FormUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Registration Form";
+			};
+			name = Debug;
+		};
+		993864072255FA7300A41C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DH5S35BHEZ;
+				INFOPLIST_FILE = "Registration FormUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wipro.Registration-FormUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Registration Form";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		993863CF2255FA7200A41C9A /* Build configuration list for PBXProject "Registration Form" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				993863FD2255FA7300A41C9A /* Debug */,
+				993863FE2255FA7300A41C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		993863FF2255FA7300A41C9A /* Build configuration list for PBXNativeTarget "Registration Form" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				993864002255FA7300A41C9A /* Debug */,
+				993864012255FA7300A41C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		993864022255FA7300A41C9A /* Build configuration list for PBXNativeTarget "Registration FormTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				993864032255FA7300A41C9A /* Debug */,
+				993864042255FA7300A41C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		993864052255FA7300A41C9A /* Build configuration list for PBXNativeTarget "Registration FormUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				993864062255FA7300A41C9A /* Debug */,
+				993864072255FA7300A41C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		993863DE2255FA7200A41C9A /* Registration_Form.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				993863DF2255FA7200A41C9A /* Registration_Form.xcdatamodel */,
+			);
+			currentVersion = 993863DF2255FA7200A41C9A /* Registration_Form.xcdatamodel */;
+			path = Registration_Form.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 993863CC2255FA7200A41C9A /* Project object */;
+}
