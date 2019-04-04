@@ -15,6 +15,7 @@
 		993863E52255FA7300A41C9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 993863E32255FA7300A41C9A /* LaunchScreen.storyboard */; };
 		993863F02255FA7300A41C9A /* Registration_FormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993863EF2255FA7300A41C9A /* Registration_FormTests.swift */; };
 		993863FB2255FA7300A41C9A /* Registration_FormUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993863FA2255FA7300A41C9A /* Registration_FormUITests.swift */; };
+		99A9CD9822563BCA0016D14D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A9CD9722563BCA0016D14D /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		993863F62255FA7300A41C9A /* Registration FormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Registration FormUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		993863FA2255FA7300A41C9A /* Registration_FormUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration_FormUITests.swift; sourceTree = "<group>"; };
 		993863FC2255FA7300A41C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99A9CD9722563BCA0016D14D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				993863E32255FA7300A41C9A /* LaunchScreen.storyboard */,
 				993863E62255FA7300A41C9A /* Info.plist */,
 				993863DE2255FA7200A41C9A /* Registration_Form.xcdatamodeld */,
+				99A9CD9722563BCA0016D14D /* Extensions.swift */,
 			);
 			path = "Registration Form";
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				993863DA2255FA7200A41C9A /* ViewController.swift in Sources */,
 				993863D82255FA7200A41C9A /* AppDelegate.swift in Sources */,
 				993863E02255FA7200A41C9A /* Registration_Form.xcdatamodeld in Sources */,
+				99A9CD9822563BCA0016D14D /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
