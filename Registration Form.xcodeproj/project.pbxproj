@@ -82,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				993863D62255FA7200A41C9A /* Registration Form */,
+				993863E62255FA7300A41C9A /* Info.plist */,
 				993863EE2255FA7300A41C9A /* Registration FormTests */,
 				993863F92255FA7300A41C9A /* Registration FormUITests */,
 				993863D52255FA7200A41C9A /* Products */,
@@ -101,14 +102,10 @@
 		993863D62255FA7200A41C9A /* Registration Form */ = {
 			isa = PBXGroup;
 			children = (
-				993863D72255FA7200A41C9A /* AppDelegate.swift */,
-				993863D92255FA7200A41C9A /* ViewController.swift */,
-				993863DB2255FA7200A41C9A /* Main.storyboard */,
-				993863E12255FA7300A41C9A /* Assets.xcassets */,
-				993863E32255FA7300A41C9A /* LaunchScreen.storyboard */,
-				993863E62255FA7300A41C9A /* Info.plist */,
-				993863DE2255FA7200A41C9A /* Registration_Form.xcdatamodeld */,
-				99A9CD9722563BCA0016D14D /* Extensions.swift */,
+				99A9CD9A2256460E0016D14D /* Controller */,
+				99A9CD99225645FC0016D14D /* Model */,
+				99A9CD9B225646330016D14D /* View */,
+				99A9CD9C225646430016D14D /* Supporting files */,
 			);
 			path = "Registration Form";
 			sourceTree = "<group>";
@@ -129,6 +126,41 @@
 				993863FC2255FA7300A41C9A /* Info.plist */,
 			);
 			path = "Registration FormUITests";
+			sourceTree = "<group>";
+		};
+		99A9CD99225645FC0016D14D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		99A9CD9A2256460E0016D14D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				993863D72255FA7200A41C9A /* AppDelegate.swift */,
+				993863D92255FA7200A41C9A /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		99A9CD9B225646330016D14D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				993863DB2255FA7200A41C9A /* Main.storyboard */,
+				993863E32255FA7300A41C9A /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99A9CD9C225646430016D14D /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				99A9CD9722563BCA0016D14D /* Extensions.swift */,
+				993863E12255FA7300A41C9A /* Assets.xcassets */,
+				993863DE2255FA7200A41C9A /* Registration_Form.xcdatamodeld */,
+			);
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
